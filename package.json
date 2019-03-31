@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "deploy": "eb deploy wodiki-prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
