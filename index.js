@@ -17,7 +17,9 @@ fastify
 
 //Configure CORS
 fastify.register(require('fastify-cors'), { 
-  origin: true
+  origin: true,
+  methods: ['GET'],
+  preflight: false
 })
 
 // Declare routes
